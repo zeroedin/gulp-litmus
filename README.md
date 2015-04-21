@@ -18,6 +18,7 @@ var config = {
     username: 'litmus_username',
     password: 'litmus_password',
     url: 'https://yourcompany.litmus.com',
+    allApplications: false,
     applications: [
         'applemail6',
         'gmailnew',
@@ -54,7 +55,7 @@ Litmus username
 
 Type: `String`  
 Default: ' '  
-Required: `yes` 
+Required: `yes`
 
 Litmus password
 
@@ -63,7 +64,7 @@ Litmus password
 
 Type: `String`  
 Default: ' '  
-Required: `yes` 
+Required: `yes`
 
 URL to your companies Litmus account
 
@@ -72,7 +73,7 @@ URL to your companies Litmus account
 
 Type: `Array`  
 Default: []  
-Required: `yes` 
+Required: `yes`
 
 Array of email clients to test. Can be found at https://yourcompany.litmus.com/clients.xml. The `<application_code>` tags contain the name e.g. Gmail Chrome: `<application_code> chromegmailnew </application_code>`
 
