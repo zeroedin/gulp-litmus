@@ -70,6 +70,7 @@ URL to your companies Litmus account
 
 
 ##### config.allApplications
+
 Type: `Boolean`
 Default: false
 Required: `no`
