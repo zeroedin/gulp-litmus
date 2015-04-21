@@ -69,6 +69,13 @@ Required: `yes`
 URL to your companies Litmus account
 
 
+##### config.allApplications
+Type: `Boolean`
+Default: false
+Required: `no`
+
+Boolean true | false to test all clients
+
 ##### config.applications
 
 Type: `Array`  
